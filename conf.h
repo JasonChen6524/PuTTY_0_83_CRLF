@@ -532,6 +532,12 @@ CONF_OPTION(bksp_is_delete,
     DEFAULT_BOOL(true),
     SAVE_KEYWORD("BackspaceIsDelete"),
 )
+//CONF_OPTION(enter_sends_crlf,
+CONF_OPTION(cr_lf_return,
+    VALUE_TYPE(BOOL),
+    DEFAULT_BOOL(FALSE),
+    SAVE_KEYWORD("EnterSendsCrLf"),
+)
 CONF_OPTION(rxvt_homeend,
     VALUE_TYPE(BOOL),
     DEFAULT_BOOL(false),

@@ -1641,6 +1641,7 @@ static void term_copy_stuff_from_conf(Terminal *term)
     term->no_bidi = conf_get_bool(term->conf, CONF_no_bidi);
     term->no_bracketed_paste = conf_get_bool(term->conf, CONF_no_bracketed_paste);
     term->bksp_is_delete = conf_get_bool(term->conf, CONF_bksp_is_delete);
+    term->cr_lf_return = conf_get_bool(term->conf, CONF_cr_lf_return);
     term->blink_cur = conf_get_bool(term->conf, CONF_blink_cur);
     term->blinktext = conf_get_bool(term->conf, CONF_blinktext);
     term->cjk_ambig_wide = conf_get_bool(term->conf, CONF_cjk_ambig_wide);

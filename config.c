@@ -2078,6 +2078,12 @@ void setup_config_box(struct controlbox *b, bool midsession,
                       conf_radiobutton_bool_handler,
                       I(CONF_bksp_is_delete),
                       "Control-H", I(0), "Control-? (127)", I(1));
+    ctrl_radiobuttons(s, "The Enter key", 'y', 2,                                           //Jason****************************************
+		              HELPCTX(keyboard_enter),
+		              conf_radiobutton_bool_handler,
+		            //I(CONF_enter_sends_crlf),
+                      I(CONF_cr_lf_return),
+		              "CR", I(0), "CR LF", I(1), NULL);
     ctrl_radiobuttons(s, "The Home and End keys", 'e', 2,
                       HELPCTX(keyboard_homeend),
                       conf_radiobutton_bool_handler,

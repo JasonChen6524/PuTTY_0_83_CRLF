@@ -26,6 +26,7 @@ typedef const char *HelpCtx;
 #define WINHELP_CTX_logging_ssh_omit_password "config-logssh"
 #define WINHELP_CTX_logging_ssh_omit_data "config-logssh"
 #define WINHELP_CTX_keyboard_backspace "config-backspace"
+#define WINHELP_CTX_keyboard_enter "keyboard.enter:config-enter"
 #define WINHELP_CTX_keyboard_homeend "config-homeend"
 #define WINHELP_CTX_keyboard_funkeys "config-funkeys"
 #define WINHELP_CTX_keyboard_sharrow "config-sharrow"
