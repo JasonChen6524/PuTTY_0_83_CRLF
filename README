@@ -1,3 +1,11 @@
+
+Modification notice:
+
+1. 0.83 source code doesn't include CR/LF option.
+2. the update added the option, which means one CR LF (0x0D, 0x0A）can be sent out when the "CR/LF" is selected.
+
+
+
 PuTTY source code README
 ========================
 
